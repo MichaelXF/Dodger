@@ -1,0 +1,48 @@
+/*
+    Resets css stuff
+    and styles html5 elements
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+    font-family: 'Archivo Black', sans-serif;
+}
+
+body {
+    background: #292d2e;
+}
+
+p {
+    color: #b5bbc4;
+}
+
+.link {
+    color: #4293eb;
+    text-decoration: none;
+    padding: 4px;
+}
+.link:hover {
+    color: #88bbf2;
+    background: #3f4347;
+}
+
+.game-ui-footer {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+
+    z-index: 100;
+}
+
+.fade {
+    transition: opacity 1.2s ease;
+}
+.fade-out {
+    opacity: 0;
+}
