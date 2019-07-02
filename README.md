@@ -14,3 +14,8 @@ The green blocks(gems) will refill your Nitro.
 ## Waves
 
 Each wave consist of a randomly generated amount of blocks. With each wave, you'll find more and faster falling blocks. You'll also regenerate your Nitro faster aswell.
+
+
+## Usage
+
+This game is programmed in HTML, CSS, and JavaScript. If you want to host this you can do it with any server language such as Apache or NodeJS. I decided to use Cash.js, which a compact DOM framework.
